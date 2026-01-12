@@ -1,0 +1,19 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.example.spotmac
+productName: SpotMac
+mac:
+  category: public.app-category.utilities
+  target:
+    - target: dmg
+      arch:
+        - arm64
+  icon: assets/icon.icns
+files:
+  - filter:
+      - main.js
+      - src/**/*
+      - node_modules/**/*
+      - package.json
+electronVersion: 37.2.6

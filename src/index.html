@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpotMac</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="input-section">
+            <div class="input-icon">✨</div>
+            <input type="text" id="mainInput" placeholder="輸入你想要的功能..." autocomplete="off">
+            <div class="clear-button" id="clearButton">✕</div>
+        </div>
+        
+        <div class="content-container" id="contentContainer">
+            <div class="welcome-message" id="welcomeMessage">
+                <div class="welcome-icon">🎯</div>
+                <div class="welcome-text">準備好開始設計你的功能了！</div>
+                <div class="welcome-subtext">這是一個乾淨的界面框架</div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <div class="shortcuts">
+                <span><kbd>Shift</kbd><kbd>⌘</kbd><kbd>T</kbd> 開啟/關閉</span>
+                <span><kbd>Esc</kbd> 關閉</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="renderer.js"></script>
+</body>
+</html>

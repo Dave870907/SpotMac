@@ -1,0 +1,4 @@
+node_modules/
+*.app
+mac-arm64/
+.DS_store

@@ -2,6 +2,10 @@
 
 一個使用 Electron 開發、外觀類似 macOS Spotlight 的小工具，提供快速呼出介面與中英互譯能力（在地端優先，支援 Ollama）。
 
+<div align="center">
+   <kbd><img src="https://github.com/Dave870907/SpotMac/blob/main/images/Interface.png" alt="Interface" width="＝600"></kbd>
+</div>
+
 ## 功能特點
 
 - ⌨️ **全域快捷鍵** - 使用 `Shift + Cmd + T` 快速呼出介面
@@ -73,6 +77,3 @@ spotmac/
 - Provider：`ollamaProvider.js` 實作 configure/healthCheck/prewarm/translate，強制輸出 zh-TW，並提供超時重試。
 - 前端：`renderer.js` 輸入偵測與 debounce、顯示結果與 meta（如 provider 與耗時）。
 
-## 授權
-
-MIT License
